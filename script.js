@@ -61,6 +61,7 @@ let click = (color) => {
 }
 
 //funcao que retorna a cor
+//Foi usado o switch case para esta funcionalidade
 let createColorElement = (color) => {
   switch (color) {
     case 0:
